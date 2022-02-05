@@ -1,0 +1,22 @@
+prefix=/home/fran/install
+exec_prefix=/home/fran/install
+libdir=/opt/openrobots/lib
+bindir=/home/fran/install/bin
+pkglibdir=/home/fran/install/lib/quadruped-reactive-walking
+includedir=/home/fran/install/include
+datarootdir=/home/fran/install/share
+pkgdatarootdir=/home/fran/install/share
+docdir=/home/fran/install/share/doc/quadruped-reactive-walking
+doxygendocdir=/home/fran/install/share/doc/quadruped-reactive-walking/doxygen-html
+
+Name: quadruped-reactive-walking
+Description: Reactive walking control architecture for quadrupeds
+URL: https://gitlab.laas.fr/gepetto/quadruped-reactive-walking
+Version: UNKNOWN-dirty
+Requires: 
+Conflicts: 
+Libs: -L${libdir} 
+Libs.private: 
+Cflags:  -I${includedir} -I/usr/include
+
+
